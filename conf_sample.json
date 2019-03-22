@@ -1,13 +1,13 @@
 [{
-   "schedule_id":"binge_drinking",
-   "hours":[11,12,13,14,15,16,17],
+   "schedule_id":"binge_drinking_feelings",
+   "hours":[10,17],
    "randomize":0,
    "context":["ACTION_AWARE_BATTERY_CHARGING"],
    "start_date":"9-01-2016",
    "expiration":10,
    "end_date":"12-30-2025",
-   "notification_title":"AWARE ESM ios1",
-   "notification_body":"Did you drink alcohol yesterday?",
+   "notification_title":"AWARE ESM ios2",
+   "notification_body":"Questionnaire feelings",
    "interface":0,
    "esms":[
        {"esm": {
@@ -23,9 +23,25 @@
            "esm_submit":"Submit",
            "esm_expiration_threshold": 0,
            "esm_trigger": "esm_basic_test_6",
-           "esm_na": 0
+           "esm_na": 1
            }
-       }
+       },
+       {"esm": {
+          "esm_type": 6,
+          "esm_title":"How do you feel?",
+           "esm_instructions":"How do you feel?",
+           "esm_scale_min": 0,
+           "esm_scale_max": 100,
+           "esm_scale_start": 50,
+           "esm_scale_max_label": "Healthy",
+           "esm_scale_min_label": "Sick",
+           "esm_scale_step": 1,
+           "esm_submit":"Submit",
+           "esm_expiration_threshold": 3600,
+           "esm_trigger": "esm_basic_test_6",
+           "esm_na": 0
+          }
+        }
     ]
   }
 ]
