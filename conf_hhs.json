@@ -1,6 +1,6 @@
 [{
    "schedule_id":"HHS_barda_feelings",
-   "hours":[14,16],
+   "hours":[10,16],
    "randomize":0,
    "context":["ACTION_AWARE_BATTERY_CHARGING"],
    "start_date":"9-01-2016",
@@ -12,7 +12,7 @@
    "esms":[
        {"esm": {
            "esm_type": 6,
-           "esm_title":"How do you feel this morning?",
+           "esm_title":"How do you feel?",
            "esm_instructions":"",
            "esm_scale_min": 0,
            "esm_scale_max": 100,
@@ -25,23 +25,7 @@
            "esm_trigger": "esm_basic_test_6",
            "esm_na": 0
            }
-       },
-       {"esm": {
-          "esm_type": 6,
-          "esm_title":"How do you feel this afternoon?",
-           "esm_instructions": "",
-           "esm_scale_min": 0,
-           "esm_scale_max": 100,
-           "esm_scale_start": 50,
-           "esm_scale_max_label": "Healthy",
-           "esm_scale_min_label": "Sick",
-           "esm_scale_step": 1,
-           "esm_submit":"Submit",
-           "esm_expiration_threshold": 3600,
-           "esm_trigger": "esm_basic_test_6",
-           "esm_na": 0
-          }
-        }
+       }
     ]
   }
 ]
