@@ -22,7 +22,7 @@
            "esm_scale_step": 1,
            "esm_submit":"Submit",
            "esm_expiration_threshold": 3600,
-           "esm_trigger": "esm_basic_test_6",
+           "esm_trigger": "esm_basic_test_ios",
            "esm_na": 0
            }
        }
