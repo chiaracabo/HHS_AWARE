@@ -1,10 +1,10 @@
 [{
    "schedule_id":"HHS_barda_feelings",
-   "hours":[10,16],
+   "hours":[12,18],
    "randomize":0,
    "context":["ACTION_AWARE_BATTERY_CHARGING"],
    "start_date":"9-01-2016",
-   "expiration":3600,
+   "expiration":300,
    "end_date":"12-30-2025",
    "notification_title":"Questionnaire awaiting",
    "notification_body":"Some questions for you",
@@ -21,8 +21,9 @@
            "esm_scale_min_label": "Sick",
            "esm_scale_step": 1,
            "esm_submit":"Submit",
-           "esm_expiration_threshold": 3600,
-           "esm_trigger": "esm_basic_test_ios",
+           "esm_expiration_threshold": 0,
+           "esm_notification_timeout": 18000,
+           "esm_trigger": "esm_test_ios",
            "esm_na": 0
            }
        }
