@@ -1,0 +1,31 @@
+[{
+   "schedule_id":"HHS_barda_feelings_2",
+   "hours":[12,18],
+   "randomize":0,
+   "start_date":"9-01-2016",
+   "expiration":300,
+   "end_date":"12-30-2025",
+   "notification_title":"Questionnaire awaiting",
+   "notification_body":"Some questions for you",
+   "interface":0,
+   "esms":[
+       {"esm": {
+           "esm_type": 6,
+           "esm_title":"How do you feel?",
+           "esm_instructions":"",
+           "esm_scale_min": 0,
+           "esm_scale_max": 100,
+           "esm_scale_start": 50,
+           "esm_scale_max_label": "Healthy",
+           "esm_scale_min_label": "Sick",
+           "esm_scale_step": 1,
+           "esm_submit":"Submit",
+           "esm_expiration_threshold": 0,
+           "esm_notification_timeout": 60,
+           "esm_trigger": "esm_test_ios_2",
+           "esm_na": 0
+           }
+       }
+    ]
+  }
+]
